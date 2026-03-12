@@ -73,6 +73,7 @@
     "topics": {}
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1007.0",
     "@babel/parser": "^7.28.5",
     "@brillout/import": "^0.2.6",
     "@oclif/core": "^2.16.0",
@@ -125,6 +126,7 @@
     "@algolia/client-search": "^4.25.3",
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-angular": "^17.8.1",
+    "@eslint/js": "^9.28.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@oclif/test": "^2.5.6",
     "@types/ali-oss": "^6.16.13",
@@ -147,8 +149,6 @@
     "@types/nunjucks": "^3.2.6",
     "@types/sinon": "^10.0.20",
     "@types/urlsafe-base64": "^1.0.31",
-    "@eslint/js": "^9.28.0",
-    "typescript-eslint": "^8.33.1",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/client": "2.0.0-rc.19",
     "@vuepress/core": "2.0.0-rc.19",
@@ -188,6 +188,7 @@
     "sinon": "^15.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
+    "typescript-eslint": "^8.33.1",
     "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.19",
     "vuepress-plugin-umami-analytics": "1.8.1"

@@ -60,6 +60,15 @@ export const SurgioConfigValidator = z.object({
       accessKeySecret: z.string(),
     })
     .optional(),
+  uploadCloudflare: z
+    .object({
+      bucket: z.string(),
+      accountId: z.string(),
+      accessKeyId: z.string(),
+      secretAccessKey: z.string(),
+      prefix: z.ostring(),
+    })
+    .optional(),
   binPath: z
     .object({
       shadowsocksr: z.string().regex(/^\//),
